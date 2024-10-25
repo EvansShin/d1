@@ -266,6 +266,7 @@ a:focus, button:focus, label:focus{outline:0}
     position: absolute;
 }
 .btn-back{
+    display:none;
     width: 36px;
     height: 36px;
     position: relative;
