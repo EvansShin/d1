@@ -51,7 +51,7 @@
                         <div class="btn-box">
                             <ul>
                                 <li onclick="nextPage()"><i>혜택</i><a href="">휴대폰결제</a></li>
-                                <li><i>혜택</i><a href="">신용카드</a></li>
+                                <li onclick="creditNextPage()"><i>혜택</i><a href="">신용카드</a></li>
                                 <li><a href="">네이버페이</a></li>
                                 <li><a href="">카카오페이</a></li>
                                 <li><a href="">페이코</a></li>
@@ -380,6 +380,10 @@
 
         function nextPage() {
             location.href = './type01_02.html'
+        }
+
+        function creditNextPage() {
+            location.href = '../credit_type01/type01_02.html'
         }
     </script>
 </body>

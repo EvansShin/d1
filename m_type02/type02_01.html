@@ -64,7 +64,7 @@
                                             <div class="item-list">
                                                 <div class="item-list__inner">
                                                     <dl>
-                                                        <dd class="active"><a href="">신용카드</a></dd>
+                                                        <dd onclick="creditNextPage()"><a href="javascript:void()">신용카드</a></dd>
                                                         <dd><a href="">가상계좌</a></dd>
                                                         <dd><a href="">계좌이체</a></dd>
                                                     </dl>
@@ -138,6 +138,10 @@
     <script>
         function nextPage() {
             location.href = './type02_02.html';
+        }
+
+        function creditNextPage() {
+            location.href = '../credit_type02/type02_02.html';
         }
     </script>
 </body>
