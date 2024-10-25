@@ -50,7 +50,7 @@
                     <div class="btn-wrap type1">
                         <div class="btn-box">
                             <ul>
-                                <li class="active"><i>혜택</i><a href="">휴대폰결제</a></li>
+                                <li onclick="nextPage()"><i>혜택</i><a href="">휴대폰결제</a></li>
                                 <li><i>혜택</i><a href="">신용카드</a></li>
                                 <li><a href="">네이버페이</a></li>
                                 <li><a href="">카카오페이</a></li>
@@ -80,15 +80,15 @@
                 </div>
             </article> 
             <!-- //결제수단별 혜택 -->
-            <article class="payment-button">
+            <!-- <article class="payment-button">
                 <div class="btn-submit-box">
-                    <button class="primary-button active"><span>결제하기</span></button><!-- 버튼 활성화 시 class="active"추가 -->
+                    <button class="primary-button active"><span>결제하기</span></button>
                 </div>
-            </article>
+            </article> -->
         </div>
     </div>
     <!-- POPUP 결제혜택 전체보기 -->
-    <div class="popup full" >
+    <div class="popup full" style="display: none;">
         <div class="bg-dark"></div>
         <div class="pop-cont-wrap">
             <div class="pop-cont-inner">
@@ -371,6 +371,16 @@
         </div>
     </div>
 
-    <script src="../script/index.js"></script>
+    <script>
+        document.querySelectorAll('.btn-box a').forEach(link => {
+            link.addEventListener('click', function(event) {
+                event.preventDefault();             
+            });
+        });
+
+        function nextPage() {
+            location.href = './type01_02.html'
+        }
+    </script>
 </body>
 </html>

@@ -14,14 +14,14 @@ document.querySelector('.primary-button').addEventListener('click', e => locatio
 document.querySelectorAll("#payments a").forEach(anchor => {
     anchor.addEventListener("click", function(event) {
         event.preventDefault(); 
-        location.href = './type02_03.html';
+        
     });
 });
 
 document.querySelectorAll("#mobile_payments a").forEach(anchor => {
     anchor.addEventListener("click", function(event) {
         event.preventDefault(); 
-        location.href = './type02_04.html';
+        // location.href = './type02_04.html';
     });
 });
 

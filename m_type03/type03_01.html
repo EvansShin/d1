@@ -56,7 +56,7 @@
                                             <div class="item-list">
                                                 <div class="item-list__inner">
                                                     <dl>
-                                                        <dd class="active"><i>혜택</i><a href="">휴대폰결제</a></dd>
+                                                        <dd onclick="nextPage()"><i>혜택</i><a href="javascript:void();">휴대폰결제</a></dd>
                                                         <dd><i>혜택</i><a href="">신용카드</a></dd>
                                                         <dd><a href="">가상계좌</a></dd>
                                                         <dd><a href="">계좌이체</a></dd>
@@ -124,14 +124,19 @@
                 </div>
             </article> 
             <!-- //결제수단별 혜택 -->
-            <article class="payment-button">
+            <!-- <article class="payment-button">
                 <div class="btn-submit-box">
-                    <button class="primary-button active"><span>결제하기</span></button><!-- 버튼 활성화 시 class="active"추가 -->
+                    <button class="primary-button active"><span>결제하기</span></button>
                 </div>
-            </article>
+            </article> -->
         </div>
     </div>
 
     <script src="../script/index3.js"></script>
+    <script>
+        function nextPage() {
+            location.href = './type03_02.html';
+        }
+    </script>
 </body>
 </html>

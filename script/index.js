@@ -14,7 +14,7 @@ document.querySelectorAll('.btn-box a').forEach(link => {
 });
 
 // 이동
-document.querySelector('.primary-button').addEventListener('click', e => location.href = './type01_02.html');
+
 
 // [step 2 ]
 document.querySelectorAll("#payments a").forEach(anchor => {
@@ -42,11 +42,11 @@ function validateFields() {
     }
 }
 
-document.getElementById('submit-box').addEventListener('click', e => {
-    location.href = './type01_06.html';
+document.querySelector('.primary-button').addEventListener('click', e => {
+    location.href = '../payments/payment_bg.html';
 })
 
-document.querySelector('.btn-submit-box').addEventListener('click', e => {
-    location.href = './type01_07.html';
-})
+// document.querySelector('.btn-submit-box').addEventListener('click', e => {
+//     location.href = './type01_07.html';
+// })
 

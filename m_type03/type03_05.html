@@ -216,7 +216,7 @@
                             <li>
                                 <div class="checkbox-item">
                                     <input type="checkbox" id="terms-all">
-                                    <label for="terms-all" class="" title="">선택약관 동의</label>
+                                    <label for="terms-all" class="" title="">필수약관 동의</label>
                                     <a href=""></a>
                                 </div>
                             </li>
@@ -265,7 +265,7 @@
                     </div>
                     <article class="payment-button">
                         <div class="btn-submit-box">
-                            <button class="primary-button active"><span>다음</span></button><!-- 버튼 활성화 시 class="active"추가 -->
+                            <button class="primary-button active" onclick="nextPage()"><span>다음</span></button><!-- 버튼 활성화 시 class="active"추가 -->
                         </div>
                     </article>
                 </div>
@@ -346,5 +346,10 @@
             </div>
         </div>
     </div>
+    <script>
+        function nextPage() {
+            location.href = '../payments/payment_bg.html';
+        }
+    </script>
 </body>
 </html>

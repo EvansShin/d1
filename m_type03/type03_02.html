@@ -56,7 +56,7 @@
                                             <div class="item-list">
                                                 <div class="item-list__inner">
                                                     <dl>
-                                                        <dd class="active"><i>혜택</i><a href="">휴대폰결제</a></dd>
+                                                        <dd><i>혜택</i><a href="javascript:void();">휴대폰결제</a></dd>
                                                         <dd><i>혜택</i><a href="">신용카드</a></dd>
                                                         <dd><a href="">가상계좌</a></dd>
                                                         <dd><a href="">계좌이체</a></dd>
@@ -160,7 +160,7 @@
                 <div class="pbody">
                     <div id="payments" class="btn-box w100">
                         <ul>
-                            <li class="active"><a href="">PASS</a></li>
+                            <li onclick="nextPage()"><a href="javascript:void()">PASS</a></li>
                             <li><a href="">SMS결제</a></li>
                             <li><a href=""><span>다모음 간편결제</span><em class="">0.5% 포인트 무조건 적립</em></a></li>
                             <li><a href="">휴대폰 간편결제</a></li>
@@ -173,5 +173,10 @@
     </div>
 
     <script src="../script/index3.js"></script>
+    <script>
+        function nextPage() {
+            location.href = './type03_03.html'
+        }
+    </script>
 </body>
 </html>

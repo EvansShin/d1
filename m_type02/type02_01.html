@@ -52,7 +52,7 @@
                                     <i>혜택</i>
                                     <div class="radio-item">
                                         <input type="radio" name="paymentSelect" id="chk01">
-                                        <label for="chk01" class="" title="">휴대폰결제</label>
+                                        <label for="chk01" class="" title="" onclick="nextPage()">휴대폰결제</label>
                                     </div>
                                 </li>
                                 <li>
@@ -127,13 +127,18 @@
                 </div>
             </article> 
             <!-- //결제수단별 혜택 -->
-            <article class="payment-button">
+            <!-- <article class="payment-button">
                 <div class="btn-submit-box">
-                    <button class="primary-button active"><span>결제하기</span></button><!-- 버튼 활성화 시 class="active"추가 -->
+                    <button class="primary-button active"><span>결제하기</span></button>
                 </div>
-            </article>
+            </article> -->
         </div>
     </div>
     <script src="../script/index2.js"></script>
+    <script>
+        function nextPage() {
+            location.href = './type02_02.html';
+        }
+    </script>
 </body>
 </html>
