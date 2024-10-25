@@ -7,32 +7,35 @@
     <link rel="stylesheet" href="../css/style.css">
     <title>D1프로젝트</title>
 </head>
-<body style="background-color: black;">
+<body>
     <div id="wrap">
+        <div class="header">
+            <a href="" class="icon-btn btn-back"></a>
+            <h1></h1>
+            <!-- <div>
+                <a href="" class="icon-btn btn-close">x</a>
+            </div> -->
+        </div>
+        <div class="container">
+            <!-- 결제내용 안내 -->
+            <article class="payment-info">
+                <ul class="info-list" style="padding-top: 80px;">
+                    <li class="info-txt">PASS APP으로<br>인증을 요청했어요</li>
+                </ul>
+            </article>
+            <div class="img-box" style="
+            width: 300px;
+            height: 500p;
+            margin: 0 auto;
+        ">
+                <img src="../img/container.png" alt="">
+            </div>
+        </div>
     </div>
-    <script src="https://paytest.teledit.com:888/clientdemo/oneapi/dist/index.js"></script>
     <script>
-          const mobileDanalPayment = DanalPayment("test_ck_D5GePWvyJnrK0W0k6q8gLzN97Eoa");
-
-         mobileDanalPayment.requestPayment({
-                    payMethod: 'PHONE',
-                    itemName: "test",
-                    itemCode: "1270000000",
-                    itemType: '1',
-                    itemCount: '1',
-                    amount: 10000,
-
-                    orderId: '124312312312312',
-                    userId: 'tlstjdtn321@naver.com',
-                    successUrl: "https://paytest.teledit.com:888/clientdemo/clientdemo_credit/return_euc-kr.php?CPID=9810030929",
-                    failUrl: "https://paytest.teledit.com:888/creditcard_test/back.html",
-        });
-        
-        setTimeout(function() {
-            document.getElementById('danal-iframe').remove();
-            location.href = '../m_type03/type03_06.html'
-        }, 2000)
-        
+        // setTimeout(function() {
+        //     location.href = '../m_type03/type03_06.html'
+        // }, 2000)
     </script>
 </body>
 </html>
