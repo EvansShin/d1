@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no,maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>D1프로젝트</title>
+    <script
+        src="https://js.sentry-cdn.com/4758125808f6fd8d0f3a96cad576cad8.min.js"
+        crossorigin="anonymous">
+    </script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-3P708SWH5E"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-3P708SWH5E');
+    </script>
+</head>
+<body>
+    <div id="wrap">
+        <div class="header">
+            <a href="" class="icon-btn btn-back"></a>
+            <h1></h1>
+            <!-- <div>
+                <a href="" class="icon-btn btn-close">x</a>
+            </div> -->
+        </div>
+        <div class="container">
+            <!-- 결제내용 안내 -->
+            <article class="payment-info">
+                <ul class="info-list">
+                    <li class="store">주식회사 다날에서</li>
+                    <li class="price">10,000원을 결제할게요</li>
+                    <!-- <li class="name">아메리카노 L사이즈</li> -->
+                </ul>
+            </article>
+            <!-- //결제내용 안내 -->
+             <div class="bar">
+                <span></span>
+             </div>
+            <!-- 결제서비스 선택 -->
+            <article class="payment-select">
+                <div class="cont-box">
+                    <h2 class="cont-title">결제방법</h2>
+                    <div class="btn-wrap type2">
+                        <div class="btn-box">
+                            <ul>
+                                <li>
+                                    <i>혜택</i>
+                                    <div class="radio-item">
+                                        <input type="radio" name="paymentSelect" id="chk01">
+                                        <label for="chk01" class="" title="">휴대폰결제</label>
+                                    </div>
+                                </li>
+                                <li>
+                                    <i>혜택</i>
+                                    <div class="">
+                                        <div class="radio-item">
+                                            <input type="radio" name="paymentSelect" id="chk02">
+                                            <label for="chk02" class="" title="">일반결제</label>
+                                            <div class="item-list">
+                                                <div class="item-list__inner">
+                                                    <dl>
+                                                        <dd class="active"><a href="">신용카드</a></dd>
+                                                        <dd><a href="">가상계좌</a></dd>
+                                                        <dd><a href="">계좌이체</a></dd>
+                                                    </dl>
+                                                    <!-- <div class="form-list">
+                                                        <div class="selectbox" role="combobox">
+                                                            <button role="option">카드사 선택</button>
+                                                        </div>
+                                                        <div class="selectbox" role="combobox">
+                                                            <button role="option">일시불</button>
+                                                        </div>
+                                                    </div> -->
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="radio-item">
+                                        <input type="radio" name="paymentSelect" id="chk03">
+                                        <label for="chk03" class="" title="">간편결제</label>
+                                        <div class="item-list">
+                                            <div class="item-list__inner">
+                                                <dl>
+                                                    <dd><a href="">다모음 간편결제</a></dd>
+                                                    <dd class="active"><a href="">네이버페이</a></dd>
+                                                    <dd><a href="">카카오페이</a></dd>
+                                                    <dd><a href="">페이코</a></dd>
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="radio-item">
+                                        <input type="radio" name="paymentSelect" id="chk04">
+                                        <label for="chk04" class="" title="">상품권</label>
+                                        <div class="item-list">
+                                            <div class="item-list__inner">
+                                                <dl>
+                                                    <dd><a href="">컬쳐랜드상품권</a></dd>
+                                                    <dd class="active"><a href="">문화상품권</a></dd>
+                                                    <dd><a href="">도서문화상품권</a></dd>
+                                                </dl>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <!-- //결제서비스 선택 -->
+            <!-- 결제수단별 혜택 -->
+            <article class="payment-benefit">
+                <div class="cont-box">
+                    <a href="" class="benefit-list all">
+                        <span>결제/할인혜택 안내</span>
+                    </a>
+                </div>
+            </article> 
+            <!-- //결제수단별 혜택 -->
+            <article class="payment-button">
+                <div class="btn-submit-box">
+                    <button class="primary-button active"><span>결제하기</span></button><!-- 버튼 활성화 시 class="active"추가 -->
+                </div>
+            </article>
+        </div>
+    </div>
+    <script src="../script/index2.js"></script>
+</body>
+</html>
