@@ -6,22 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no,maximum-scale=1.0, minimum-scale=1.0">
     <link rel="stylesheet" href="../css/style.css">
     <title>D1프로젝트</title>
-    <script
-        src="https://js.sentry-cdn.com/4758125808f6fd8d0f3a96cad576cad8.min.js"
-        crossorigin="anonymous">
-    </script>
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-3P708SWH5E"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-
-        gtag('config', 'G-3P708SWH5E');
-    </script>
-
 </head>
 <body>
-
     <div id="wrap">
         <div class="header">
             <a href="" class="icon-btn btn-back"></a>
@@ -50,14 +36,14 @@
                     <div class="btn-wrap type1">
                         <div class="btn-box">
                             <ul>
-                                <li class="active"><i>혜택</i><a href="">휴대폰결제</a></li>
-                                <li><i>혜택</i><a href="">신용카드</a></li>
+                                <li><i>혜택</i><a href="">휴대폰결제</a></li>
+                                <li class="active"><i>혜택</i><a href="">신용카드</a></li>
                                 <li><a href="">네이버페이</a></li>
-                                <li><a href="">카카오페이</a></li>
-                                <li><a href="">페이코</a></li>
-                                <li><a href="">다모음간편결제</a></li>
-                                <li><a href="">계좌이체</a></li>
-                                <li><a href="">가상계좌</a></li>
+                                <li><a href="">휴대폰결제</a></li>
+                                <li><a href="">신용카드</a></li>
+                                <li><a href="">네이버페이</a></li>
+                                <li><a href="">휴대폰결제</a></li>
+                                <li><a href="">신용카드</a></li>
                                 <li class="btn-more"><a href="">+ 더보기</a></li>
                                 <!-- <li><a href="">휴대폰결제</a></li>
                                 <li><a href="">신용카드</a></li> -->
@@ -88,7 +74,7 @@
         </div>
     </div>
     <!-- POPUP 결제혜택 전체보기 -->
-    <div class="popup full" >
+    <div class="popup full" style="display: none;">
         <div class="bg-dark"></div>
         <div class="pop-cont-wrap">
             <div class="pop-cont-inner">
@@ -226,7 +212,7 @@
         </div>
     </div>
     <!-- POPUP 약관동의 -->
-    <div class="popup" style="display:none;">
+    <div class="popup" style="display:table;">
         <div class="bg-dark"></div>
         <div class="pop-cont-wrap">
             <div class="pop-cont-inner">
@@ -370,7 +356,5 @@
             </div>
         </div>
     </div>
-
-    <script src="../script/index.js"></script>
 </body>
 </html>
