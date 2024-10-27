@@ -1,32 +1,52 @@
 <!DOCTYPE html>
 <html lang="ko">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no,maximum-scale=1.0, minimum-scale=1.0">
-    <link rel="stylesheet" href="../css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, user-scalable=no,maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <link rel="stylesheet" href="../css/style.css" />
     <title>D1프로젝트</title>
-</head>
-<body style="background-color: black;">
-    <div id="wrap"  style="background-color: black;">
-        <div class="header">
-            <a href="" class="icon-btn btn-back"></a>
-            <h1></h1>
-            <!-- <div>
+    <script
+      src="https://js.sentry-cdn.com/4758125808f6fd8d0f3a96cad576cad8.min.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-3P708SWH5E"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-3P708SWH5E");
+    </script>
+  </head>
+  <body style="background-color: black">
+    <div id="wrap" style="background-color: black">
+      <div class="header">
+        <a href="" class="icon-btn btn-back"></a>
+        <h1></h1>
+        <!-- <div>
                 <a href="" class="icon-btn btn-close">x</a>
             </div> -->
+      </div>
+      <div class="container">
+        <!-- 결제내용 안내 -->
+        <div class="img-box">
+          <img src="../img/credit_img.jpg" alt="" />
         </div>
-        <div class="container">
-            <!-- 결제내용 안내 -->
-            <div class="img-box">
-                <img src="../img/credit_img.jpg" alt="">
-            </div>
-        </div>
+      </div>
     </div>
     <script>
-        setTimeout(function() {
-            location.href = '../credit_type01/type01_06.html'
-        }, 2000);
+      setTimeout(function () {
+        location.href = "../credit_type01/type01_06.html";
+      }, 2000);
     </script>
-</body>
+  </body>
 </html>
